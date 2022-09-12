@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="css/estiloformulario.css">
 </head>
-<body>
+<body class="fondo">
     
-    <img src="channels-645_logo3d_misiontic.png" width="100" height="70">
-    <h1>Formularios de Registro</h1>
-<hr>
-    <form action="">
+    <img src="img/channels-645_logo3d_misiontic.png" width="100" height="70">
+    <h1 class="titulos">Formularios de Registro</h1>
+    <hr>
+    <form id="formulario" action="">
 
         <p>Nombre : <input type="text" name="nombre" maxlength="50"></p>
         <p>Usuario: <input type="text" name="username" maxlength="50"></p>
@@ -24,8 +25,8 @@
         <p>Correo: <input type="text" name="correo" maxlength="100"></p>
         <p>Contraseña: <input type="password" name="passw"></p>
         <p><input type="checkbox" name="condiciones">He leido los terminos y condiciones</p>
-<hr>
-        <button type="submit" value="Enviar">Enviar</button>
+    <hr>
+        <button class="botones" type="submit" value="Enviar">Enviar</button>
 
     </form>
 </body>
